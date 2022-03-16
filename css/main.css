@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  width: 1050px;
+  margin: auto;
+}
+
+.header {
+  margin: auto;
+  margin-top: 45px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo .logo__title {
+  font-weight: 700;
+  margin-left: 12px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.header__navigation .navigation__links {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+  margin-right: 30px;
+}
+
+.main .slider .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+
+.main .slider .section__content .content__title {
+  width: 510px;
+  font-size: 60px;
+  color: #000;
+  line-height: 115%;
+  font-weight: 900;
+  margin-bottom: 50px;
+  margin-top: 184px;
+}
+
+.main .slider .section__content .content__text {
+  display: block;
+  width: 420px;
+  font-weight: 700;
+  color: #9B9B9B;
+  font-size: 18px;
+  line-height: 147%;
+  letter-spacing: 2%;
+  margin-bottom: 46px;
+}
+
+.main .slider .section__content .content__button {
+  width: 209px;
+  height: 53px;
+  border-radius: 2px;
+  background-color: #414141;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.main .slider .section__content .content__button span {
+  margin-left: 9px;
+}
+
+.main .slider .section__image img {
+  display: block;
+  margin-left: 48px;
+}
+
+.main .feature .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 183px;
+}
+
+.main .feature .feature-item {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0px;
+  align-items:center;
+  margin-left: 80px;
+}
+
+.main .feature .feature-item:first-child{
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
+.main .feature .feature-item:last-child{
+  margin-top: 50px;
+}
+
+.main .feature .feature-item .feature-images img{
+  margin-bottom: 21px;
+}
+
+.main .feature .feature-item .feature-item-info .feature-item-title{
+  color: #000000; 
+  font-size: 18px;
+  line-height: 147%;
+  font-weight: 700;
+}
+
+.main .feature .feature-item .feature-item-info .feature-item-text{
+  color: #818181;
+  font-size: 13px;
+  line-height: 150%;
+  margin-top: 15px;
+  letter-spacing: 0.02em;
+}
+
+.main .feature .feature-item .feature-item-info .arrow-down{
+  margin-top: 23px;
+}
